@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width:1110px;
+    margin: auto;
+    background-color: #ffffff;
+  
+}
+
+.logo-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.logo-link:first-letter{
+    color: #1abc9c;
+}
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
