@@ -17,6 +17,7 @@
     background-color: #ffffff;
     color: #626262;
     padding: 40px 0 80px 0;
+    padding-bottom:80px;
   
 }
 
@@ -62,7 +63,7 @@
     margin-top:105px;
 }
 
-.products-link {
+.products-title {
     display: block;
     margin: 0 auto;
     font-size: 50px;
@@ -113,10 +114,11 @@
 }
 
 .products-price {
+    display:block;
     float: right;
     background: #8c8c8c;
     text-align: center;
-    /*line-height: 25px;*/
+    line-height: 25px;
      padding: 8px 10px ;
      width: 55px;
     color: #ffffff;
@@ -124,4 +126,92 @@
 
 .products-gallery-item .products-name:hover {
     background-color: #1abc9c;
+}
+.products-gallery-item:hover .products-price{
+    background-color: #7fd9c7;
+}
+
+.section-news {
+    margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.news-title {
+    display: block;
+    margin: 0 auto;
+  
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+}
+
+.news-title::after {
+    content: "";
+    display: block;
+    width: 165px;
+    height: 10px;
+    background: #1abc9c;
+    margin: 30px auto 0;
+    margin-bottom:45px;
+}
+.news-item {
+    float: left;
+    width: 350px;
+    margin-right: 30px;
+}
+
+.news-item:last-child {
+    margin-right: 0;
+}
+.news-title {
+    margin-top: 30px;
+    
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.img{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.news-info {
+    font-size: 18px;
+    font-weight: 600;
+    color: #555252;
+}
+
+.news-info::after {
+    content: "";
+    display: block;
+    width: 135px;
+    height: 3px;
+    background: #1abc9c;
+    margin-top: 10px;
+}
+
+.news-text {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.news-btn {
+    background-color: #4ec6ab;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #f3fbf9;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border: 1px solid #ffffff;
+}
+
+.news-btn:hover {
+    background-color: #4b9b81;
+    border: 2px solid #ffffff;
 }
