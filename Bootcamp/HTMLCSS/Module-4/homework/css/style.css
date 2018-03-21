@@ -146,7 +146,10 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #626262;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
+
 
 .news-title::after {
     content: "";
@@ -169,7 +172,7 @@
 .news-title {
     margin-top: 30px;
     
-    font-weight: 400;
+    
     margin-bottom: 15px;
 }
 
