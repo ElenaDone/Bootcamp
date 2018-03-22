@@ -73,6 +73,10 @@ img {
     
 }
 
+section-1-article:last-child {
+    
+}
+
 .section-articlle:last-child>article.title{
     text-transform:uppercase;
 }
